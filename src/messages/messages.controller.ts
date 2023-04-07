@@ -9,11 +9,11 @@ export class MessagesController {
 
   @Post()
   createMessage() {
-    return "got your post"
+    return "got your post";
   }
 
   @Get('/:id')
   getMessage() {
-    "Your required message."
+    return "Your required message.";
   }
 }
